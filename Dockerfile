@@ -1,7 +1,9 @@
 FROM ubuntu:16.04
 
 # Install python and pip
-RUN apt update && apt install -y python3-pip python3-mapnik
+RUN apt-get update \
+        && apt-get install -y python3-pip python3-mapnik \
+        && rm -rf /var/lib/apt/lists/*
 ADD ./webapp/requirements.txt /tmp/requirements.txt
 
 # Install dependencies
