@@ -1,0 +1,6 @@
+gunicorn==19.9.0
+ModestMaps==1.4.7
+Pillow==5.4.1
+simplejson==3.16.0
+TileStache==1.51.13
+Werkzeug==0.15.1
