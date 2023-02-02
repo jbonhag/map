@@ -3,4 +3,4 @@ ModestMaps==1.4.7
 Pillow==6.2.0
 simplejson==3.16.0
 TileStache==1.51.13
-Werkzeug==0.15.3
+Werkzeug==0.15.5
